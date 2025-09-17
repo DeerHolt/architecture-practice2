@@ -50,7 +50,7 @@ func (t *Training) Parse(datastring string) (err error) {
 	return nil
 }
 
-// ActionInfo выодит результаты о прошедшей тренировку на основе полученных данных.
+// ActionInfo выводит результаты о прошедшей тренировку на основе полученных данных.
 func (t Training) ActionInfo() (string, error) {
 	var (
 		calories float64
